@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Евгений Баженов](https://up.htmlacademy.ru/htmlcss/24/user/611883).
-* Наставник: `Неизвестно`.
+* Наставник: `Евгений Бервяченок`(https://htmlacademy.ru/profile/jackson).
 
 ---
 
