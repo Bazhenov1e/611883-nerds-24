@@ -27,20 +27,62 @@
 <!--Боковая панель-->
           <aside class="left-panel">
               <!--Форма фильтров-->
-              <form class="" action="index.html" method="post">
-
-              </form>
+             <form class="" action="https://echo.htmlacademy.ru" method="get">
+                  <fieldset>
+                      <legend>Сетка:</legend>
+                      <ul>
+                          <li>
+                              <input type="radio" name="network-type" value="adaptive" id="filter-adaptive">
+                              <label for="filter-adaptive">Адаптивная</label>
+                          </li>
+                          <li>
+                              <input type="radio" name="network-type" value="fixed" id="filter-fixed">
+                              <label for="filter-fixed">Фиксированя</label>
+                          </li>
+                          <li>
+                              <input type="radio" name="network-type" value="rubber" id="filter-rubber">
+                              <label for="filter-rubber">Резиновая</label>
+                          </li>
+                      </ul>
+                  </fieldset>
+                  <fieldset>
+                      <legend>Особенности:</legend>
+                      <ul>
+                          <li>
+                              <input type="checkbox" name="Slider" id="filter-slider" checked>
+                              <label for="filter-slider">Слайдер</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" name="unit-advantages" id="filter-advantages">
+                              <label for="filter-advantages">Блок преимуществ</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" name="news" id="filter-news" checked>
+                              <label for="filter-news">Новости</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" name="galery" id="filter-galery">
+                              <label for="filter-galery">Галерея</label>
+                          </li>
+                          <li>
+                              <input type="checkbox" name="basket" id="filter-basket">
+                              <label for="filter-basket">Корзина</label>
+                          </li>
+                      </ul>
+                      <button type="submit" name="button">Показать</button>
+                  </fieldset>
+             </form>
 
           </aside>
 <!--Список продуктов-->
           <section class="product-list">
-              <h2 class="visually-hidden">Список продуктов</h2>
+             <h2 class="visually-hidden">Список продуктов</h2>
              <section class="product-item">
                  <img src="img/img-sedona.jpg" width="360" height="576" alt="Информационный сайт для туристов">
                  <div class="product-info">
                      <h3>Sedona</h3>
                      <p>Информационный сайт для туристов</p>
-                     <button type="button" name="button">9900</button>
+                     <a href="#">9900</a>
                  </div>
              </section>
              <section class="product-item">
@@ -48,7 +90,7 @@
                  <div class="product-info">
                      <h3>Pink app</h3>
                      <p>Продуктовый лендинг приложения для IOS и Android</p>
-                     <button type="button" name="button">9900</button>
+                     <a href="#">9900</a>
                  </div>
              </section>
              <section class="product-item">
@@ -56,7 +98,7 @@
                  <div class="product-info">
                      <h3>barbershop</h3>
                      <p>Сайт салона красоты. Для мужчин, да.</p>
-                     <button type="button" name="button">9900</button>
+                     <a href="#">9900</a>
                  </div>
              </section>
              <section class="product-item">
@@ -64,7 +106,7 @@
                  <div class="product-info">
                       <h3>mishka</h3>
                       <p>Интернет-магазин вязаных игрушек</p>
-                      <button type="button" name="button">9900</button>
+                      <a href="#">9900</a>
                  </div>
              </section>
              <section class="product-item">
@@ -72,7 +114,7 @@
                  <div class="product-info">
                       <h3>a plus</h3>
                       <p>Лендинг курсов повышения квалификации</p>
-                      <button type="button" name="button">9900</button>
+                      <a href="#">9900</a>
                  </div>
              </section>
              <section class="product-item">
@@ -80,7 +122,7 @@
                  <div class="product-info">
                       <h3>Кваст</h3>
                       <p>Промо-сайт производителя крафтового кваса</p>
-                      <button type="button" name="button">9900</button>
+                      <a href="#">9900</a>
                  </div>
              </section>
         </section>
