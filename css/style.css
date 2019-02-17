@@ -1,15 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: "Roboto", Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 700;
   color: #000000;
-  text-transform: uppercase;
-
-  background-color: #ffffff;
 }
 
 a {
@@ -18,15 +11,25 @@ a {
 
 .inner-page {
   color: #000000;
-  background-color: #ffffff;
+}
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.main-header-logo:hover img {
+  opacity: 0.7;
+}
+
+.main-header-logo:active {
+  opacity: 0.4;
 }
 
 .main-nav a {
   font-size: 16px;
-  line-height: 11px;
+  line-height: 30px;
   color: #000000;
-  background-color: #ffffff;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .site-navigation {
@@ -35,10 +38,9 @@ a {
 
 .basket {
   font-size: 16px;
-  line-height: 11px;
+  line-height: 30px;
   color: #000000;
-  background-color: #ffffff;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .main-nav a:hover,
@@ -66,21 +68,26 @@ a {
 
 .popular-item h2 {
   font-size: 24px;
-  line-height: 11px;
-  font-weight: bold;
+  line-height: 30px;
+  font-weight: 700;
   color: #000000;
+}
+
+.popular-item img {
+  width: 300px;
+  height: 146px;
 }
 
 .popular-item p {
   font-size: 16px;
   line-height: 24px;
   color: #283136;
-  text-transform: none;
   font-weight: normal;
 }
 
 .popular-item a {
   font-size: 16px;
+  line-height: 18px;
   color: #ffffff;
   background-color: #000000;
 }
@@ -95,7 +102,8 @@ a {
 
 .footer-info span {
   font-size: 36px;
-  line-height: 13px;
+  line-height: 36px;
+  font-weight: 700;
   color: #000000;
 }
 
@@ -103,26 +111,55 @@ a {
   font-size: 16px;
   line-height: 22px;
   color: #444444;
-  text-transform: none;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 .main-header h1 {
   font-size: 55px;
   line-height: 55px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 500;
+  margin: 0;
 }
 
 .filter fieldset {
   border: none;
 }
 
-.filter-item {
+.filter-list {
   font-size: 16px;
   line-height: 20px;
-  text-transform: none;
-  font-weight: normal;
+  font-weight: 400;
   color: #283136;
   list-style: none;
+}
+
+.filter-button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.product-info h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.product-info p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.product-info a {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: red;
 }
