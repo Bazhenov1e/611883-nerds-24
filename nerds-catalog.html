@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>htmlacademy:нердс-каталог</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" >
   </head>
-  <body>
+  <body class="inner-page">
 
 <!--Хэдер и навигация-->
       <header class="main-header">
@@ -27,19 +30,19 @@
 <!--Боковая панель-->
           <aside class="left-panel">
               <!--Форма фильтров-->
-             <form class="" action="https://echo.htmlacademy.ru" method="get">
+             <form class="filter" action="https://echo.htmlacademy.ru" method="get">
                   <fieldset>
                       <legend>Сетка:</legend>
                       <ul>
-                          <li>
+                          <li class="filter-item">
                               <input type="radio" name="network-type" value="adaptive" id="filter-adaptive">
                               <label for="filter-adaptive">Адаптивная</label>
                           </li>
-                          <li>
+                          <li class="filter-item">
                               <input type="radio" name="network-type" value="fixed" id="filter-fixed">
                               <label for="filter-fixed">Фиксированя</label>
                           </li>
-                          <li>
+                          <li class="filter-item">
                               <input type="radio" name="network-type" value="rubber" id="filter-rubber">
                               <label for="filter-rubber">Резиновая</label>
                           </li>
@@ -48,23 +51,23 @@
                   <fieldset>
                       <legend>Особенности:</legend>
                       <ul>
-                          <li>
+                          <li class="filter-item">
                               <input type="checkbox" name="Slider" id="filter-slider" checked>
                               <label for="filter-slider">Слайдер</label>
                           </li>
-                          <li>
+                          <li class="filter-item">
                               <input type="checkbox" name="unit-advantages" id="filter-advantages">
                               <label for="filter-advantages">Блок преимуществ</label>
                           </li>
-                          <li>
+                          <li class="filter-item">
                               <input type="checkbox" name="news" id="filter-news" checked>
                               <label for="filter-news">Новости</label>
                           </li>
-                          <li>
+                          <li class="filter-item">
                               <input type="checkbox" name="galery" id="filter-galery">
                               <label for="filter-galery">Галерея</label>
                           </li>
-                          <li>
+                          <li class="filter-item">
                               <input type="checkbox" name="basket" id="filter-basket">
                               <label for="filter-basket">Корзина</label>
                           </li>
