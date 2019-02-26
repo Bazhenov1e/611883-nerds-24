@@ -2,15 +2,12 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
   color: #000000;
 }
 
 a {
   text-decoration: none;
-}
-
-.inner-page {
-  color: #000000;
 }
 
 .main-header {
@@ -28,7 +25,6 @@ a {
 .main-nav a {
   font-size: 16px;
   line-height: 30px;
-  color: #000000;
   font-weight: 400;
 }
 
@@ -39,7 +35,7 @@ a {
 .basket {
   font-size: 16px;
   line-height: 30px;
-  color: #000000;
+
   font-weight: 400;
 }
 
@@ -70,7 +66,6 @@ a {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
-  color: #000000;
 }
 
 .popular-item img {
@@ -104,7 +99,6 @@ a {
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
-  color: #000000;
 }
 
 .footer-info p {
@@ -117,7 +111,6 @@ a {
 .main-header h1 {
   font-size: 55px;
   line-height: 55px;
-  color: #000000;
   font-weight: 500;
   margin: 0;
 }
@@ -141,7 +134,11 @@ a {
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .product-info h3 {
