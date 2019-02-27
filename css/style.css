@@ -12,6 +12,9 @@ a {
 
 .main-header {
   background-color: #eeeeee;
+  min-height: 120px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .main-header-logo:hover img {
@@ -22,6 +25,20 @@ a {
   opacity: 0.4;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+
 .main-nav a {
   font-size: 16px;
   line-height: 30px;
@@ -30,13 +47,19 @@ a {
 
 .site-navigation {
   list-style: none;
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin-left: -125px;
 }
 
 .basket {
   font-size: 16px;
   line-height: 30px;
-
   font-weight: 400;
+  margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 .main-nav a:hover,
@@ -56,16 +79,20 @@ a {
 
 .popular-list {
   list-style: none;
-}
-
-.popular-item {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 20px;
+  width: 1100px;
+  justify-content: space-between;
 }
 
 .popular-item h2 {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
+  margin: 0;
+  padding: 0;
 }
 
 .popular-item img {
@@ -78,13 +105,31 @@ a {
   line-height: 24px;
   color: #283136;
   font-weight: normal;
+  width: 260px;
 }
 
 .popular-item a {
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-  background-color: #000000;
+}
+
+.popular-btn {
+  width: 160px;
+  min-height: 50px;
+  border-radius: 5px;
+}
+
+.btn-color-1 {
+  background-color: #fb565a;
+}
+
+.btn-color-2 {
+  background-color: #00ca74;
+}
+
+.btn-color-3 {
+  background-color: #efc849;
 }
 
 .feedback {
@@ -93,6 +138,24 @@ a {
 
 .social-list {
   list-style: none;
+}
+
+.main-footer {
+  width: 1160px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+}
+
+.social-list {
+  width: 260px;
+  display: flex;
+}
+
+.footer-info {
+  margin-left: 140px;
+  width: 560px;
+  min-height: 70px;
 }
 
 .footer-info span {
@@ -160,3 +223,6 @@ a {
   color: #ffffff;
   background-color: red;
 }
+
+
+/*---сеточные стили---*/
