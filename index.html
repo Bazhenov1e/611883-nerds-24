@@ -1,107 +1,140 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet" >
-  </head>
-  <body>
 
-<!--Хэдер и навигация-->
-      <header class="main-header">
-          <div class="header-inner-container">
-             <div class="main-nav-inner">
-                <div class="logo-inner">
-                    <a class="main-header-logo">
-                        <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип">
-                    </a>
-                </div>
-                <div class="user-navigation-inner">
-                     <nav class="main-nav">
-                         <ul class="site-navigation">
-                             <li class="site-navigation-item"><a href="#">Студия</a></li>
-                             <li class="site-navigation-item"><a href="#">Клиенты</a></li>
-                             <li class="site-navigation-item"><a href="nerds-catalog.html">Магазин</a></li>
-                             <li class="site-navigation-item"><a href="#">Контакты</a></li>
-                         </ul>
-                     </nav>
-                     <div class="basket">
-                         <a href="#">Корзина</a>
-                     </div>
-                </div>
-             </div>
-          </div>
-      </header>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-<!--Основной контент-->
-      <main class="main-container">
-          <div class="main-container-inner">
-              <section>
-                  <ul class="popular-list">
-                      <li class="popular-item">
-                          <img src="img/illustration-1.jpg" width="300" height="146" alt="Веб-сайт">
-                          <h2>Веб-сайты</h2>
-                          <p>Мир никогда не будет прежним  после того как увидит ваш сайт!</p>
-                          <button class="popular-btn btn-color-1"><a href="#">Заказать</a></button>
-                      </li>
-                      <li class="popular-item">
-                          <img src="img/illustration-2.jpg" width="300" height="146" alt="Веб-приложения">
-                          <h2>Приложения</h2>
-                          <p>Покорите топ-10 приложений в  AppStore и Google Play</p>
-                          <button class="popular-btn btn-color-2"><a href="#">Заказать</a></button>
-                      </li>
-                      <li class="popular-item">
-                          <img src="img/illustration-3.jpg" width="300" height="146" alt="Презентации">
-                          <h2>Презентации</h2>
-                          <p>Вы даже не подозреваете,  насколько вы изумительны!</p>
-                          <button class="popular-btn btn-color-3"><a href="#">Заказать</a></button>
-                      </li>
-                  </ul>
-              </section>
-          </div>
-      </main>
+<body>
 
-<!--Футер и навигация-->
-    <div class="footer-container">
-        <footer class="main-footer">
-              <ul class="social-list">
-                 <li class="social-item">
-                     <a href="#"><img src="#" alt="vkontakte"></a>
-                 </li>
-                 <li class="social-item">
-                     <a href="#"><img src="#" alt="facebook"></a>
-                 </li>
-                 <li class="social-item">
-                     <a href="#"><img src="#" alt="instagram"></a>
-                 </li>
+  <!--Хэдер и навигация-->
+  <header class="main-header">
+    <div class="inner-container">
+      <div class="main-nav-inner">
+        <div class="logo-inner">
+          <a class="main-header-logo">
+            <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип">
+          </a>
+        </div>
+        <div class="user-navigation-inner">
+          <nav class="main-nav">
+            <ul class="site-navigation">
+              <li class="site-navigation-item"><a href="#">Студия</a></li>
+              <li class="site-navigation-item"><a href="#">Клиенты</a></li>
+              <li class="site-navigation-item"><a href="nerds-catalog.html">Магазин</a></li>
+              <li class="site-navigation-item"><a href="#">Контакты</a></li>
             </ul>
-          <div class="footer-info">
-            <span>Давайте дружить, это выгодно!</span>
-            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </nav>
+          <div class="basket">
+            <a href="#">Корзина</a>
           </div>
-        </footer>
+        </div>
+      </div>
     </div>
-<!--Форма обратной связи-->
-      <section class="feedback">
-          <h2>Напишите нам</h2>
-          <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-              <p>
-                  <label for="user-name">Ваше имя:</label>
-                  <input type="text" name="login" id="user-name" placeholder="Имя Фамилия">
-              </p>
-              <p>
-                  <label for="user-email">Ваш e-mail:</label>
-                  <input type="email" name="email" id="user-email" placeholder="e-mail@example.com">
-              </p>
-              <p>
-                  <label for="letter-text">Текст письма:</label>
-                  <textarea name="text" rows="3" cols="25" id="letter-text" placeholder="В свободной форме"></textarea>
-              </p>
-              <button type="submit">Отправить</button>
-              <button  class="modal-close" type="button">Закрыть</button>
-          </form>
+  </header>
+
+  <!--Слайдер-->
+  <section class="slider">
+    <div class="inner-container">
+      <h2 class="visually-hidden">Преимущества</h2>
+      <div class="slider-controls">
+        <i class="active"></i>
+        <i></i>
+        <i></i>
+      </div>
+      <ul class="slider-list">
+        <li class="slider-item">
+          <h3>Долго, дорого,<br> скурпулезно.</h3>
+          <p>Математически вывереный дизайн<br> для вашего сайта или мобильного приложения.</p>
+          <a class="slider-item-button button" href="#">Узнать больше</a>
+        </li>
+        <li class="slider-item">
+          <h3>Любим математику как никто другой</h3>
+          <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+          <a class="slider-item-button button" href="#">Узнать больше</a>
+        </li>
+        <li class="slider-item">
+          <h3>Только ночь,<br>только хардкор</h3>
+          <p>Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+          <a class="slider-item-button button" href="#">Узнать больше</a>
+        </li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!--Основной контент-->
+  <main class="inner-container">
+    <div class="main-container-inner">
+      <section>
+        <ul class="popular-list">
+          <li class="popular-item">
+            <img src="img/illustration-1.jpg" width="300" height="146" alt="Веб-сайт">
+            <h2>Веб-сайты</h2>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <button class="popular-btn btn-color-1"><a href="#">Заказать</a></button>
+          </li>
+          <li class="popular-item">
+            <img src="img/illustration-2.jpg" width="300" height="146" alt="Веб-приложения">
+            <h2>Приложения</h2>
+            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <button class="popular-btn btn-color-2"><a href="#">Заказать</a></button>
+          </li>
+          <li class="popular-item">
+            <img src="img/illustration-3.jpg" width="300" height="146" alt="Презентации">
+            <h2>Презентации</h2>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <button class="popular-btn btn-color-3"><a href="#">Заказать</a></button>
+          </li>
+        </ul>
       </section>
-  </body>
+    </div>
+  </main>
+
+  <!--Футер и навигация-->
+  <div class="inner-container">
+    <footer class="main-footer">
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#"><img src="#" alt="vkontakte"></a>
+        </li>
+        <li class="social-item">
+          <a href="#"><img src="#" alt="facebook"></a>
+        </li>
+        <li class="social-item">
+          <a href="#"><img src="#" alt="instagram"></a>
+        </li>
+      </ul>
+      <div class="footer-info">
+        <span>Давайте дружить, это выгодно!</span>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </footer>
+  </div>
+  <!--Форма обратной связи-->
+  <section class="feedback">
+    <h2>Напишите нам</h2>
+    <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="user-name">Ваше имя:</label>
+        <input type="text" name="login" id="user-name" placeholder="Имя Фамилия">
+      </p>
+      <p>
+        <label for="user-email">Ваш e-mail:</label>
+        <input type="email" name="email" id="user-email" placeholder="e-mail@example.com">
+      </p>
+      <p>
+        <label for="letter-text">Текст письма:</label>
+        <textarea name="text" rows="3" cols="25" id="letter-text" placeholder="В свободной форме"></textarea>
+      </p>
+      <button type="submit">Отправить</button>
+      <button class="modal-close" type="button">Закрыть</button>
+    </form>
+  </section>
+</body>
+
 </html>
